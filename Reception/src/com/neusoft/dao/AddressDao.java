@@ -1,0 +1,34 @@
+package com.neusoft.dao;
+
+import java.util.List;
+
+import com.neusoft.entity.Address;
+import com.neusoft.entity.PageModel;
+
+public interface AddressDao {
+	//查询全部地址
+	public List<Address> getAddressList();
+	//添加地址
+	public boolean addAddress(Address address) throws DaoException;
+	//删除地址
+	public boolean deleteAddress(int id) throws DaoException;
+	//修改地址
+	public boolean updateAddress(Address address) throws DaoException;
+	//查询地址
+	public Address getAddress(Integer id) throws DaoException;
+	//分页
+	public PageModel<Address> getPageModel(int pageNo,int pageSize) throws DaoException;
+	
+	//递归 删除
+	public Address rearchId(int id);
+   //删除主方法
+	public void delRegion(Integer id);
+	
+	//查询出省的名字
+	public List<Address> getSheng();
+	//根据省的名字查出市的名字
+	public List<Address> getShiByname(String name);
+	//根据市的名字查出县的名字
+	public List<Address> getQuByname(String name);
+	
+}

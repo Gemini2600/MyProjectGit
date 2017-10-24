@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.backimg{
+	/*background-image: url(../img/hehua.jpg);*/
+	/*background-repeat:no-repeat;*/
+	width:1347px;
+    height: 659px;
+    background-size:100% 100%;
+    position:absolute;
+	border: 1px solid #CCCCCC;
+	
+}
+.logink{
+	border: 1px solid #CCCCCC;
+	width: 410px;
+	height:460px;
+	margin-left: 680px;
+    margin-top: 75px;
+    border-radius: 10px;
+   
+}
+.logink1{
+	/*border: 1px solid #CCCCCC;*/
+	height: 65px;
+}
+.logink2{
+	/*border: 1px solid #CCCCCC;*/
+}
+.logink3{
+	/*border: 1px solid #CCCCCC;*/
+}
+.logink4{
+	/*border: 1px solid #CCCCCC;*/
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.logink5{
+	/*border: 1px solid #CCCCCC;*/
+	height: 60px;
+	border-bottom: 1px solid #999999;
+	width: 370px;
+	margin-left: 23px;
+}
+#dspan{
+	font-size: 25px;
+    line-height: 70px;
+    margin-left: 55px;
+    font-family: "微软雅黑";
+}
+#mspan{
+	margin-left: 170px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+h5{
+	font-size: 14px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.but{
+	margin-left: 55px;
+    height: 35px;
+    width: 283px;
+}
+#wspan{
+	margin-left: 202px;
+    font-size: 10px;
+    font-family: "微软雅黑";
+}
+#qspan{
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+.cbut{
+	margin-left: 250px;
+}
+.but1{
+	margin-left: 32px;
+    height: 40px;
+    width: 283px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "Microsoft YaHei",微软雅黑,黑体;
+	line-height: 38px;
+	color: #fff;
+	word-spacing: 8px;
+	letter-spacing: 1px;
+	background-color: #ec3550;
+	display: block;
+	border: none;
+	border-radius: 5px ;
+}
+.but1:hover{
+	background-color: #FF3333;
+}
+
